@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fokhrul Islam</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Welcome to Fokhrul's Code🙂</h1>
+
+      <!-- 1. input tag , type="text" , type="password" ,type ="file" ,type="date" -->
+      <!-- 2. placeholder attribute -->
+      <h1>
+        1. input tag , type="text" , type="password" ,type ="file" ,type="date"
+        <br />
+        2. placeholder attribute
+      </h1>
+      <input type="text" name="text" placeholder="Inter a Text" />
+      <input type="password" name="password" placeholder="Inter Password" />
+      <input type="file" name="file" placeholder="Upload file" />
+      <input type="date" name="date" />
+
+      <!-- 3. label tag , for attribute , readonly , disabled  , size , maxlength  , multiple, required, autofocus -->
+      <h1>
+        3. label tag , for attribute , readonly , disabled , size , maxlength ,
+        multiple, required, autofocus
+      </h1>
+      <form action="">
+        <label for="username">username </label>
+        <input type="text" name="" id="username" placeholder="Inter username" />
+        <input
+          type="email"
+          value="ifokhrul.2029@gmail.com"
+          readonly
+          autofocus />
+        <input type="text" placeholder="required Text" required />
+        <input type="checkbox" id="subscribe" name="subscribe" disabled />
+        <br />
+        <textarea
+          id="bio"
+          name="bio"
+          rows="4"
+          cols="50"
+          maxlength="200"
+          placeholder="Write your bio here . . . "></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+
+      <!-- 4. input types , radio, range,checkbox and all types of inputs -->
+      <h1>4. input types , radio, range,checkbox and all types of inputs</h1>
+      <input type="text" placeholder="Inter Text  " />
+      <input type="email" placeholder="Inter Email " />
+      <input type="password" placeholder="Inter password" />
+      <input type="file" />
+      <input
+        type="range"
+        id="range-input"
+        name="volume"
+        min="0"
+        max="100"
+        value="50" />
+      <input type="radio" name="radio" />
+      <input type="date" />
+      <input type="number" />
+      <input type="checkbox" />
+      <input type="submit" />
+      <!-- 5. radio button (male ,female gernder example ) -->
+      <h1>5. radio button (male ,female gernder example )</h1>
+
+      <div class="radioInput">
+        <label for="">Male</label>
+        <input type="radio" name="gender" id="" value="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="" value="female" />
+      </div>
+      <!-- 6. email and phone link using mailto: and tel: -->
+      <h1>6. email and phone link using mailto: and tel:</h1>
+      <p>
+        <a href="mailto:ifokhrul.2029@gmail.com" title="ifokhrul.2029@gmail.com"
+          >Send Email</a
+        >
+      </p>
+      <p><a href="tel:+8801742672425" title="+8801742672425">Call Us</a></p>
+      <!-- 7. inline and block elements  -->
+      <h1>7. inline and block elements</h1>
+      <!-- Inline Elements  -->
+      <h1>Inline element</h1>
+      <span>span tag</span> <br />
+      <a href="#">a tag </a> <br />
+      <strong>strong tag</strong> <br />
+
+      <input type="text" value="Input fild" />
+      <label for="">label tag</label> <br />
+      <em>em tag </em> <br />
+      <i>i tag </i> <br />
+      <b>b tag </b> <br />
+      <code>Code element</code> <br />
+      <!-- Block elements  -->
+      <h1>Block Element</h1>
+      <div>Div Element</div>
+      <section>Section Element</section>
+      <p>p element</p>
+      <h3>h3 element</h3>
+      <header>header element</header>
+      <nav>Nav element</nav>
+
+      <!-- 8 . textarea and select options  -->
+      <h1>8 . textarea and select options</h1>
+      <textarea name="message" id="" cols="30" rows="10">
+
+Inter your text Here . . . </textarea
+      >
+      <br />
+      <select id="" name="person">
+        <option value="Tamim">Tamim</option>
+        <option value="Sakib">Sakib</option>
+        <option value="Liton">Liton</option>
+        <option value="Taskin">Taskin</option>
+      </select>
+      <!-- 9 . contact form example  -->
+      <h1>9 . contact form example</h1>
+      <h1>Contact Form</h1>
+      <form action="post">
+        <input type="name" placeholder="Inter full name" />
+        <input type="number" placeholder="Inter Phone Number" />
+        <input type="email" placeholder="Inter Email Address" />
+        <textarea name="" id="" cols="20" rows="6"></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+      <!-- 10. 3 types of css . (inline, internal , external ) -->
+      <h1>10. 3 types of css . (inline, internal , external )</h1>
+      <!-- inline (EXAMPLE)-->
+      <br /><br />
+      <span
+        style="
+          color: white;
+          background-color: green;
+          padding: 10px 20px;
+          margin: 20px;
+        "
+        >Inline CSS</span
+      >
+
+      <!-- internal (EXAMPLE)-->
+      <style>
+        .internalCss {
+          background-color: green;
+          color: white;
+          padding: 10px 20px;
+        }
+      </style>
+      <span class="internalCss"> Internal CSS </span>
+
+      <!-- external (EXAMPLE)-->
+      <code
+        >It's external CSS, Way to linkup an external css file
+        <link rel="stylesheet" href="style.css" />
+      </code>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.829);
+  color: rgba(255, 255, 255, 0.788);
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 10px 0 0 20px;
+}
+.title {
+  padding: 5px;
+  border: 3px solid orange;
+  border-radius: 6px;
+  color: orange;
+  text-align: center;
+}
+input {
+  display: block;
+  padding: 5px 10px 5px 10px;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.829);
+  outline: none;
+  color: white;
+  border-radius: 5px;
+}
+.radioInput input {
+  display: inline;
+}
+a {
+  color: aqua;
+}
