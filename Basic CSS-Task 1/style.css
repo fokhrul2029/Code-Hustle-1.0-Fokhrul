@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+  background-color: rgba(0, 0, 0, 0.74);
+  color: white;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px 10px;
+}
+/* CSS COLORS for Task */
+/* use colors by color name  */
+.colorName {
+  color: black;
+  background-color: white;
+}
+/* Hexadecimal color code  */
+.hexColor {
+  color: #000000;
+  background-color: #ffffff;
+}
+/* rgb color code  */
+.rgbColor {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+/* hsl color code  */
+.hslColor {
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 100%);
+}
