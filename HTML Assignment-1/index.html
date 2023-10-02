@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Assignment-1 is Developed by fokhrul" />
+    <title>HTML Assignment-1 || Fokhrul Islam</title>
+  </head>
+  <body>
+    <!-- Header Block  -->
+    <header>
+      <!-- Logo div -->
+      <div class="logo">
+        <a href="#">
+          <img
+            width="50px"
+            src="https://fokhrul2029.netlify.app/img/images/favicon.png"
+            alt="" />
+        </a>
+      </div>
+      <h1>Student Registration Form</h1>
+      <!-- Navigation  -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Personal Information Section  -->
+    <section class="formSection">
+      <main>
+        <!-- Form  -->
+        <form action="">
+          <!-- personal info Field  -->
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="firstName">First Name: </label>
+            <input type="text" id="firstName" name="" required /> <br />
+            <br />
+            <label for="lastName">Last Name: </label>
+            <input type="text" id="lastName" name="" required /> <br />
+            <br />
+            <label for="birth">Date of Birth: </label>
+            <input type="date" id="birth" name="" required /> <br />
+            <br />
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" value="male" id="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female" />
+            <label for="female">female</label>
+            <input type="radio" name="gender" value="other" id="other" />
+            <label for="other">Other</label> <br /><br />
+            <label for="address">Address: </label>
+            <textarea name="address" id="address" cols="30" rows="5"></textarea>
+            <br />
+            <br />
+            <label for="city">City: </label>
+            <input type="text" id="city" name="city" required /> <br />
+            <br />
+            <label for="state">State: </label>
+            <select name="State" id="state">
+              <option value="sylhet">Sylhet</option>
+              <option value="sunamganj">Sunamganj</option>
+              <option value="habiganj">Habiganj</option>
+              <option value="maulvibazar">Maulvibazar</option>
+            </select>
+            <br />
+            <br />
+            <label for="zipCode">ZIP Code: </label>
+            <input type="number" id="zipCode" name="zipCode" required />
+          </fieldset>
+          <!-- Contact info field  -->
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required /> <br />
+            <br />
+            <label for="phone">Phone Number: </label>
+            <input type="number" name="phone" id="phone" required />
+          </fieldset>
+          <!-- Educational info Field  -->
+          <fieldset>
+            <legend>Educational Information</legend>
+            <label for="studentId">Student Id: </label>
+            <input type="text" name="studentId" id="studentId" /> <br />
+            <br />
+            <label for="department">Department: </label>
+            <select name="depertment" id="department">
+              <option value="science">Science</option>
+              <option value="Ars">Ars</option>
+              <option value="Comors">Comors</option>
+              <option value="Other">Comors</option>
+            </select>
+            <br />
+            <br />
+            <label for="gpa">GPA: </label>
+            <input type="number" name="gpa" id="gpa" required /> <br />
+            <br />
+            <label for="resume">Upload Resume: </label>
+            <input type="file" name="resume" id="resume" required /> <br />
+            <br />
+            <label for="skills">Skills</label>
+            <input type="text" name="skills" id="skills" required /> <br />
+            <br />
+            <label for="">Interests: </label>
+            <input type="checkbox" name="programming" id="programming" />
+            <label for="programming">Programming</label>
+            <input type="checkbox" name="sports" id="sports" />
+            <label for="sports">Sports</label>
+            <input type="checkbox" name="music" id="music" />
+            <label for="music">Music</label> <br />
+            <br />
+            <label for="profile">Upload Profile Picture: </label>
+            <input type="file" name="profile" id="profile" />
+          </fieldset>
+          <!-- Emergency Contact Information field  -->
+          <fieldset>
+            <legend>Emergency Contact Information</legend>
+            <label for="E_C_Name">Emergency Contact Name:</label>
+            <input type="text" name="E_C_Name" id="E_C_Name" required /> <br />
+            <br />
+            <label for="E_C_phone">Emergency Contact Phone Number:</label>
+            <input type="number" name="E_C_phone" id="E_C_phone" required />
+          </fieldset>
+
+          <!-- Additional Information -->
+          <fieldset>
+            <legend>Additional Information</legend>
+            <label for="comments">Comments</label> <br />
+            <textarea
+              name="comments"
+              id="comments"
+              cols="30"
+              rows="4"></textarea>
+          </fieldset>
+          <input type="submit" value="Submit" /> <br />
+        </form>
+      </main>
+    </section>
+
+    <!-- Student List section -->
+    <section class="studentList">
+      <h1>Student List</h1>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Student Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Department</th>
+            <th>GPA</th>
+            <th>Image</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2029</td>
+            <td>Fokhrul</td>
+            <td>Islam</td>
+            <td>Ars</td>
+            <td>4.14</td>
+            <td>
+              <img
+                width="60px"
+                src="https://fokhrul2029.netlify.app/img/fokhrul's%20img/Fokhrul's%20Image.jpg"
+                alt="" />
+            </td>
+          </tr>
+          <tr>
+            <td>1234</td>
+            <td>Fokhrul</td>
+            <td>Fokhrul</td>
+            <td>Science</td>
+            <td>5.00</td>
+            <td>
+              <img
+                width="60px"
+                src="https://fokhrul2029.netlify.app/img/fokhrul's%20img/Fokhrul's%20Image.jpg"
+                alt="" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <br /><br />
+    <!-- Footer  -->
+    <footer>
+      <span>Designed by &copy Fokhrul Islam</span> <br />
+      <span>Powered by &copy 2023 JustCode 🙂 </span>
+    </footer>
+  </body>
+</html>
