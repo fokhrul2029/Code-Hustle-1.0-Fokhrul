@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+  background-color: rgba(0, 0, 0, 0.788);
+  color: white;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 10px 10px;
+}
+ul li {
+  font-size: 25px;
+  font-weight: 900;
+}
+/* DivA CSS */
+.divA {
+  color: darksalmon;
+  background-color: green;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 13px;
+  margin: 20px 0;
+}
+/* DivB CSS  */
+.divB {
+  max-width: 700px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 20px 20px;
+  background-color: green;
+  color: rgba(255, 255, 255, 0.829);
+  border-radius: 10px;
+  border: 1px solid white;
+  text-align: center;
+}
+.divB h1 {
+  font-weight: bold;
+  border-bottom: 1px solid white;
+  margin-bottom: 14px;
+  display: inline-block;
+  padding: 0 20px;
+}
+.divB p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.divB a {
+  border: 1px solid wgite;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(0, 61, 0);
+}
