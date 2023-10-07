@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+  background-color: rgba(0, 0, 0, 0.822);
+  color: white;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+.container > div {
+  max-width: 450px;
+  background-color: white;
+  color: black;
+  margin: 10px auto;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+/* Facebook Heading CSS  */
+.container .facebookHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.facebookHeader > div {
+  font-size: 27px;
+  font-weight: bold;
+  color: #1877f2;
+  cursor: pointer;
+}
+.facebookHeader i {
+  border: 1px solid transparent;
+  padding: 7px 7px;
+  font-size: 18px;
+  color: #000000de;
+  border-radius: 100%;
+  background: #02010124;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.facebookHeader i:hover {
+  background: rgba(2, 1, 1, 0.288);
+}
+/* Facebook Task Bar CSS  */
+.fbTaskBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4px;
+}
+.fbTaskBar i {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+.fbTaskBar i:hover {
+  background-color: rgba(0, 0, 0, 0.171);
+}
+/* YouTube Heading CSS  */
+.youtubeHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.youtubeHead .logo {
+  font-weight: 900;
+  font-size: 25px;
+  font-family: revert;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+}
+.youtubeHead .logo i {
+  color: red;
+  font-size: 30px;
+  margin-top: 7px;
+}
+.youtubeHead .menu i {
+  font-size: 19px;
+  margin: 0 0px;
+  cursor: pointer;
+  padding: 7px 7px;
+  border-radius: 100%;
+  transition: 0.2s ease-out;
+}
+.youtubeHead .menu span {
+  color: white;
+  background: green;
+  font-size: 20px;
+  padding: 5px 11px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.youtubeHead .menu i:hover {
+  background-color: rgba(0, 0, 0, 0.158);
+}
+/* youtube Taskbar CSS  */
+.youtubeTaskbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2px;
+}
+.youtubeTaskbar i {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 10px;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+.youtubeTaskbar i:hover {
+  background-color: rgba(0, 0, 0, 0.158);
+}
