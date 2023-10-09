@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+  background-color: rgba(0, 0, 0, 0.733);
+  color: rgba(255, 255, 255, 0.788);
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px 10px;
+}
+/* Styling-Button CSS  */
+.buttonCss {
+  margin: 20px 0;
+}
+button {
+  border: 1px solid transparent;
+  outline: none;
+  color: white;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.buttonA {
+  background-color: royalblue;
+  color: rgb(192, 192, 192);
+}
+.buttonA:hover {
+  background-color: rgba(24, 6, 75, 0.815);
+  color: rgba(255, 255, 255, 0.836);
+}
+.buttonB {
+  background-color: black;
+}
+.buttonB:hover {
+  background-color: transparent;
+  border: 1px solid tomato;
+  color: tomato;
+}
+.buttonC {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+.buttonC:hover {
+  background-color: green;
+  border: 1px solid transparent;
+  color: white;
+}
+/* styling-Tag CSS */
+.tagStyle {
+  margin: 20px 0;
+}
+a {
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.tagA {
+  background-color: violet;
+  color: rgba(255, 255, 255, 0.836);
+}
+.tagA:hover {
+  background-color: rgb(85, 140, 212);
+  color: rgba(255, 255, 255, 0.836);
+}
+.tagB {
+  background-color: lightseagreen;
+}
+.tagB:hover {
+  background-color: transparent;
+  border: 1px solid white;
+}
+.tagC {
+  background-color: transparent;
+  border: 1px solid tomato;
+  color: tomato;
+}
+.tagC:hover {
+  background-color: rgb(140, 22, 163);
+  border: 1px solid transparent;
+  color: white;
+}
