@@ -1,0 +1,199 @@
+/* 
+Google Font 
+font-family: 'Poppins', sans-serif
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+/* Replesment CSS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+/* Navidation CSS  */
+header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 9;
+}
+.navigation {
+  background-color: #333;
+  color: white;
+}
+.navigation .mainNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+.navigation h1 {
+  font-size: 25px;
+  color: antiquewhite;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.navigation h1:hover {
+  text-shadow: 0px 0px 4px #29cba5;
+}
+.navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+.navigation ul li a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 4px 7px;
+  border-radius: 4px;
+  transition: 0.2s ease-in;
+}
+.navigation ul li:hover a {
+  background-color: rgb(3, 146, 58);
+}
+.navigation .active {
+  background-color: rgb(3, 146, 58);
+}
+/* Form Section CSS  */
+.formSection form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.formSection fieldset {
+  padding: 10px 25px;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.formSection form label {
+  display: block;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.formSection form input {
+  display: block;
+  width: 96%;
+  outline: none;
+  padding: 6px 6px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.formSection textarea {
+  width: 96%;
+  border-radius: 4px;
+  outline: none;
+  padding: 6px 6px;
+}
+.formSection input[type="submit"] {
+  border: 0;
+  color: #ffffffdb;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  background: #1a9159;
+  text-align: center;
+  margin: auto;
+}
+.formSection input[type="submit"]:hover {
+  background-color: green;
+  color: white;
+}
+.formSection .gender input {
+  display: inline;
+  width: auto;
+}
+.formSection .gender label {
+  display: inline;
+  margin-right: 8px;
+}
+.formSection .gender label:nth-child(1) {
+  display: block !important;
+}
+.formSection .interests input {
+  display: inline;
+  width: auto;
+}
+.formSection .interests label {
+  display: inline;
+  margin-right: 8px;
+}
+.formSection .interests label:nth-child(1) {
+  display: block !important;
+}
+.file-input {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.file-label {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #1f6391e0;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.file-label:hover {
+  background-color: #2980b9;
+}
+/* Student list or Table CSS  */
+.studentList {
+  margin-top: 70px;
+}
+.studentList h1 {
+  border-bottom: 3px solid black;
+  display: table;
+  padding: 0 30px 0px 30px;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+}
+.studentList table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.studentList th,
+.studentList td {
+  padding: 12px;
+  text-align: left;
+}
+.studentList th {
+  background-color: #17442f;
+  color: #ffffffcf;
+}
+.studentList tr:nth-child(even) {
+  background-color: #ebebeb; /* Alternate row background color */
+}
+.studentList img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+/* Footer CSS  */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+}
+footer span {
+  display: block;
+  margin-bottom: 10px;
+}
