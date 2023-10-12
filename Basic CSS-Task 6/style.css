@@ -1,0 +1,106 @@
+/* 
+  // Google Font 
+  // font-family: 'Poppins', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+
+/* Replesment CSS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+  background-color: rgba(0, 0, 0, 0.808);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  /* max-width: 900px; */
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+/* Card CSS  */
+.cardWraper {
+  min-height: 100vh ;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.cardWraper .card {
+  width: 350px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 20px 20px;
+  background-color: #242d36;
+  color: #fff;
+  transition: 0.2s ease-in;
+  cursor: context-menu;
+}
+.cardWraper .card:hover {
+  transform: translateY(-10px);
+}
+.cardWraper .card:hover i {
+  color: white;
+  background-color: rgb(250, 115, 19);
+}
+.cardWraper i {
+  border: 1px solid transparent;
+  padding: 7px 10px 6px 10px;
+  display: inline-block;
+  border-radius: 100%;
+  background: rgb(255 255 255 / 7%);
+  font-size: 13px;
+  color: rgb(250, 115, 19);
+  transition: 0.2s ease-in;
+}
+.cardWraper h1 {
+  font-size: 20px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+.cardWraper p {
+  font-size: 13px;
+  line-height: 18px;
+  margin-top: 4px;
+  cursor: auto;
+}
+.cardWraper ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardWraper ul li {
+  font-size: 17px;
+  border: 1px solid transparent;
+  padding: 2px 11px;
+  border-radius: 100%;
+  margin: 10px 0;
+  background: rgb(255 255 255 / 7%);
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.cardWraper ul li:hover {
+  background-color: rgba(221, 221, 221, 0.39);
+}
+.cardWraper button {
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-radius: 54px;
+  padding: 11px 0;
+  font-weight: bold;
+  background: rgb(250, 115, 19);
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.2s ease-in;
+}
+.cardWraper button:hover {
+  background: rgba(255, 110, 7, 0.822);
+}
