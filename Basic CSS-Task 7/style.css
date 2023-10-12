@@ -1,0 +1,96 @@
+/* 
+    //  Import Google Font 
+    //  Font-name: font-family: 'Roboto', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+/* Replesment CSS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.76);
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+/* Navigation CSS  */
+.navSection {
+  background-color: rgb(0, 0, 0);
+}
+.navSection .navDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+}
+.navSection .logo img {
+  width: 70px;
+  cursor: pointer;
+}
+.navSection ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.navSection ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid transparent;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: 0.2s ease-in;
+  font-weight: 500;
+}
+.navSection ul li a:hover {
+  color: green;
+}
+/* Hero Section CSS */
+.hero-section {
+  height: 100vh;
+  background-image: linear-gradient(rgb(179 179 179 / 14%), rgb(0 0 0 / 48%)),
+    url(https://www.publicdomainpictures.net/pictures/160000/velka/hintergrund-tapete-1459614028ukJ.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-section h1 {
+  font-size: 48px;
+  display: block;
+  padding: 13px 0;
+  cursor: pointer;
+}
+.hero-section p {
+  font-size: 20px;
+  max-width: 700px;
+  padding: 0 50px;
+  cursor: auto;
+}
+.hero-section button {
+  font-size: 20px;
+  background: #10976b;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 11px 56px;
+  border-radius: 123px;
+  margin: 23px 0;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.hero-section button:hover {
+  background-color: green;
+}
